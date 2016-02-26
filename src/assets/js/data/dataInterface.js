@@ -18,7 +18,7 @@ export default function() {
 
     var source,
         callbackGenerator = callbackInvalidator(),
-        candlesOfData = 200,
+        candlesOfData = 1200,
         data = [];
 
     function invalidate() {
